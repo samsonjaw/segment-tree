@@ -9,9 +9,9 @@ Begin VB.Form Form1
    Picture         =   "Form1.frx":0000
    ScaleHeight     =   7590
    ScaleWidth      =   11700
-   StartUpPosition =   3  '�t�ιw�]��
+   StartUpPosition =   3  '¨t²Î¹w³]­È
    Begin VB.CommandButton Command3 
-      Caption         =   "�}�l�ϥ�"
+      Caption         =   "¶}©l¨Ï¥Î"
       Height          =   1575
       Left            =   8400
       TabIndex        =   3
@@ -19,7 +19,7 @@ Begin VB.Form Form1
       Width           =   2655
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "�u�q�𤶲�"
+      Caption         =   "½u¬q¾ð¤¶²Ð"
       Height          =   1575
       Left            =   4440
       TabIndex        =   2
@@ -27,7 +27,7 @@ Begin VB.Form Form1
       Width           =   2655
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "�\�श��"
+      Caption         =   "¥\¯à¤¶²Ð"
       Height          =   1575
       Left            =   600
       TabIndex        =   1
@@ -37,9 +37,9 @@ Begin VB.Form Form1
    Begin VB.Label Label1 
       AutoSize        =   -1  'True
       BackColor       =   &H8000000E&
-      Caption         =   "�u�q���ƳB�z�u��"
+      Caption         =   "½u¬q¾ð¸ê®Æ³B²z¤u¨ã"
       BeginProperty Font 
-         Name            =   "�s�ө���"
+         Name            =   "·s²Ó©úÅé"
          Size            =   60
          Charset         =   136
          Weight          =   700
@@ -70,5 +70,5 @@ Form3.Show
 End Sub
 
 Private Sub Command3_Click()
-RetVal = Shell("segment all.exe", 1)
+RetVal = Shell("segment_tree.exe", 1)
 End Sub
